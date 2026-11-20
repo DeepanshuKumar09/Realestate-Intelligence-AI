@@ -6,10 +6,9 @@ langchain
 langchain-core
 langchain-openai
 langchain-chroma
-langchain-huggingface
 langchain-text-splitters
-sentence-transformers
 chromadb
+fastembed
 fastapi
 uvicorn
 streamlit

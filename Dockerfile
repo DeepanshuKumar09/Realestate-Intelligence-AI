@@ -7,11 +7,6 @@ ENV PYTHONUNBUFFERED=1
 ENV PORT=8501
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 
-# Install CPU-only PyTorch first
-RUN pip install --no-cache-dir \
-    --index-url https://download.pytorch.org/whl/cpu \
-    torch
-
 # Install remaining dependencies
 COPY requirements.txt .
 
