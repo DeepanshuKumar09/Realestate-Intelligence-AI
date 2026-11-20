@@ -1,0 +1,16 @@
+python-dotenv
+requests
+beautifulsoup4
+lxml
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+sentence-transformers
+chromadb
+fastapi
+uvicorn
+streamlit
+pydantic

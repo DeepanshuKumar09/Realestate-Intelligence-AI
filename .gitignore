@@ -1,0 +1,13 @@
+
+.env
+myvenv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ignore ChromaDB folders outside the project data directory
+chroma_db/
+
+# Keep the project's indexed knowledge database
+!data/chroma_db/
